@@ -1,0 +1,20 @@
+{
+  "name": "noticias",
+  "version": "1.0.0",
+  "description": "Projeto da aula de node.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Leonardo Paniz Aguiar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "consign": "^0.1.6",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-validator": "^5.3.1",
+    "mysql": "^2.18.1"
+  }
+}
